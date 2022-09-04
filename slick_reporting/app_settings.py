@@ -36,11 +36,18 @@ SLICK_REPORTING_FORM_MEDIA_DEFAULT = {
         )
     },
     'js': (
-        'https://code.jquery.com/jquery-3.3.1.slim.min.js',
+        
+        #'https://code.jquery.com/jquery-3.3.1.slim.min.js',
+        # adding support for every javascript library
+        'https://code.jquery.com/jquery-3.3.1.min.js',
         'https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.js',
         'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js',
         'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js',
         'https://code.highcharts.com/highcharts.js',
+ 
+        #Adding support for export and import of highcharts
+        'https://code.highcharts.com/modules/exporting.js',
+        'https://code.highcharts.com/modules/export-data.js',
     )
 }
 
