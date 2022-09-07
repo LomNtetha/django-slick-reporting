@@ -468,8 +468,11 @@
                     percent: 'Percent',
                 },
                 credits: {
-                    text: 'RaSystems.io',
-                    href: 'https://rasystems.io'
+                    //text: 'RaSystems.io',
+                    //href: 'https://rasystems.io'
+                    text: 'Lumkile Ntetha',
+                    href: 'https://api.whatsapp.com/send?phone=26650899604'
+                        
                 },
                 // notify_error: notify_error,
                 enable3d: false,
